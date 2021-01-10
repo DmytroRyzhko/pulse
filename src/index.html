@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
@@ -59,7 +60,7 @@
     
     <section class="advantages">
         <div class="container">
-            <div class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</div>
+            <div class="title">НАШИ ПРЕИМУЩЕСТВА</div>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
                     <img src="img/cup.png" alt="cup" class="advantages__logo">
@@ -86,6 +87,36 @@
         </div>
     </section>
 
-    
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">Получите бесплатную консультацию<br>
+                по подбору пульсометра </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут  
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">Заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div class="carousel__item"><img src="img/carousel/polar-watch.jpg" alt="slide"></div>
+                <div class="carousel__item"><img src="img/carousel/polar-m400-triple.jpg" alt="slide"></div>
+                <div class="carousel__item"><img src="img/carousel/polar-m600-trio.jpg" alt="slide"></div>
+            </div>   
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

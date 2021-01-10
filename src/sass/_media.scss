@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 21px 0 73px 0;
+        &__header {
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 23px;
+        }
+    }
+};
+
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            margin-top: 770px;
+        }
+    }
+
+}
