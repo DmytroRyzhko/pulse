@@ -1,0 +1,13 @@
+@mixin link-hover {
+    &:hover {
+        color:#10C72E;
+        // -webkit-text-stroke: 1px rgba(72, 197, 223, 1);
+    }
+}
+
+@mixin icon-hover {
+    &:hover {
+        background-color: #000;
+        border: none;
+      }
+}

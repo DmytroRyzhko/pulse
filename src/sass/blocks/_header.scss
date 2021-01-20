@@ -24,10 +24,7 @@
         font-size: 18px;
         font-weight: 700;
         color: #ffffff;
-        &:hover {
-        text-decoration: none;    
-        color: #ffffff;
-        }
+        @include link-hover;
     }
     &__contacts {
         display: flex;
