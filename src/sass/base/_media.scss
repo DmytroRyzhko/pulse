@@ -360,26 +360,36 @@
         padding: 40px 0 40px 0;
 
         .title {
+            text-align: center;
             font-size: 20px;
             margin-bottom: 0;
             line-height: 32px;
         }
 
         .feed-form {
-            width: 240px;
+            display: block;
+            margin: 0 auto;
             margin-top: 25px;
             input {
+                width: 260px;
                 font-size: 13px;
                 height: 40px;
                 padding: 0 12px;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
             }
         }
 
         &__descr {
+            text-align: center;
             margin-top: 40px;
             font-size: 18px;
         }
+    }
+
+    .consultation label.error {
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: left;
     }
 
     .carousel {
@@ -455,7 +465,7 @@
             }
         }
     }
-
+    
     .reviews {
         padding-bottom: 50px;
 
@@ -561,7 +571,6 @@
         font-size: 24px;
         margin-bottom: 0;
     }
-
 
     .button {        
         display: block;
@@ -683,9 +692,10 @@
         }
 
         .feed-form {
-            width: 220px;
+            width: 260px;
             margin-top: 15px;
             input {
+                width: 260px;
                 font-size: 13px;
                 line-height: 18px;
             }
@@ -811,9 +821,6 @@
             }
         }
     }
-
-
-
 
     h2.title {
         font-size: 18px;
